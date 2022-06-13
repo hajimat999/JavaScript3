@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JS/app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="first">
+        <div class="div">
+            <input type="text" placeholder="Amount" id="Amount">
+            <h1>Amount: <span id="amount"></span></h1>
+        </div>
+        <div class="div">
+            <input type="text" placeholder="Interest" id="Interest">
+            <h1>Interest: <span id="interest1"></span></h1>
+        </div>
+        <div class="div">
+            <input type="text" placeholder="Month" id="Month">
+            <h1>Month: <span id="month"></span></h1>
+        </div>
+            <table>
+                <tr>
+                    <th>Total Amount</th>
+                    <th>Monthly Payment</th>
+                    <th>Total Interest</th>
+                </tr>
+                <tr>
+                    <td id="totalamount"></td>
+                    <td id="monthlypayment"></td>
+                    <td id="interest2"></td>
+                </tr>
+            </table>
+            <button onclick="Sum()">Click</button>
+    </section>
+    <section id="second">
+       <div class="buttons">
+         <h1><span id="count">0</span></h1>
+         <button id="decrease" onclick="decrease()" >Decrease</button>
+         <button id="reset" onclick="reset()">Reset</button>
+         <button id="increase"onclick="increase()">Increase</button>
+       </div>
+    </section>
+</body>
+</html>

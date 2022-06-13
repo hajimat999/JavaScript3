@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div{
+    padding: 1rem 4rem;
+    width: 40%;
+}
+.div input{
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 15px;
+    border: 2px solid #555;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.div h1{
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+table{
+    font-family:sans-serif;
+    text-transform: uppercase;
+    border-collapse: collapse;
+    
+}
+table th, table td{
+    border: 2px solid #ddd;
+    padding: 16px;
+}
+table th{
+    text-align: left;
+    background-color: #04AA6D;
+    color:#fff; 
+}
+table td{
+    font-weight: bold;
+}
+#first button{
+    font-family: sans-serif;
+    color: #fff;
+    padding: 10px 40px;
+    background-color: #04AA6D;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 17px;
+    border: none;
+    border-radius: 7px;
+    margin: 20px;
+    
+}
+#second {
+    padding: 3rem 0;
+}
+#second .buttons{
+   width: 50%;
+   margin: auto;
+   text-align: center;
+}
+#second h1{
+    margin-bottom: 25px;
+    font-size: 65px;
+    font-family: sans-serif;
+    
+}
+#second .buttons{
+    background-color: rgb(193, 187, 187);
+    box-shadow: 5px 10px 18px red;
+    padding: 20px 0;
+}
+#second button{
+    font-family: sans-serif;
+    color: #fff;
+    padding: 10px 40px;
+    background-color: #04AA6D;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 17px;
+    border: none;
+    border-radius: 7px;
+    margin: 20px;
+}
